@@ -1,0 +1,49 @@
+.anh {
+    width:300px;
+    height:300px;
+    border-style:solid ;
+    border-width:2px;
+    border-color:red;
+    margin-bottom:0cm;
+    margin-top:4px;
+    object-position: center;
+    object-fit: contain ;
+      }
+  .congchua{
+    margin-top:0cm;
+    padding-top:1px ;
+    padding-left: 1px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    color:rgb(187, 204, 32);
+    font-family:arial;
+    font-weight: bold;
+    font-size: 20px;
+    text-align:left;
+    margin-bottom:0px;
+    width:150px;
+  
+            }
+   
+  .congchua:hover{
+      cursor:pointer;
+  }
+    
+  .div{
+    width:340px;
+    display:inline-block;
+  }
+ .co{
+    font-size:20px;
+    font-family:arial;
+    font-weight:bold;
+    margin-top:0px;
+   
+ } 
+ .seach{
+    width:7cm;
+    height: 25px;
+    font-size : 20px;
+    border-color : rgb(59, 52, 52);
+    text-align: left;
+ }

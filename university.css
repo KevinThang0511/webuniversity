@@ -1,0 +1,400 @@
+   .body{
+      padding:0px;
+      padding-bottom:1000px;
+      margin:0px;
+   }
+
+
+/* phần trên cùng của web (background and eduford */
+   .header{
+    background-image:url('anh/banner.png');
+    image-rendering: pixelated;
+    height:800px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   }
+   
+   .top{
+      display:flex;
+      padding-top:30px;
+      margin-left: 100px;
+      margin-right: 50px;
+      height:60px;
+   }
+
+   .top-eduford{
+      flex:1;
+      height:60px;
+    
+   }
+   .top-home,.top-about,.top-course,
+   .top-blog,.top-contact
+   {
+      margin-right: 30px;;
+      display:flex;
+      align-items: center;
+      height:40px;
+      font-size:14px;
+      font-family: arial,sans-serif;
+      font-weight:bold;
+      color: white;
+   }
+
+   .title-web{
+      font-size:70px;
+      color:white;
+      text-align: center;
+      margin-top:100px;
+      font-family:arial, sans-serif ;
+      padding-bottom:10px;
+      margin-block-end:5px;
+   }
+
+   .content-web{
+      text-align:center;
+      font-size:17px;
+      color:white;
+      font-family:arial ;
+   }
+ 
+   .button-web{
+      border-radius:3px;
+      color:#fff;
+      font-family:arial;
+      font-weight:bold;
+      font-size:13px;
+      border: solid white 2px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      display:inline-block;
+      border:solid white 2px;
+      width:60px;
+      width:150px;
+   }
+
+   .button-web:hover {
+      background-color:rgb(236, 99, 99);
+      transition: 1s;
+      cursor: pointer;
+   }  
+
+   .link{
+      color:white;
+      text-decoration: none;
+   }
+   .div-button{  
+      display:block;
+      text-align: center;
+   }
+
+   .top-home:hover{ 
+      text-decoration: underline 2px;
+      text-decoration-color: red;
+      transition: 1s;
+   }
+   .top-about:hover{ 
+      text-decoration: underline 2px;
+      text-decoration-color: red;
+      transition: 1s;
+   }
+   .top-blog:hover{ 
+      text-decoration: underline 2px;
+      text-decoration-color: red;
+      transition: 1s;
+   }
+   .top-course:hover{ 
+      text-decoration: underline 2px;
+      text-decoration-color: red;
+      transition: 1s;
+   }
+   .top-contact:hover{ 
+      text-decoration: underline 2px;
+      text-decoration-color: red;
+      transition: 1s;
+   }
+
+
+/* section 1 của web */
+   .courses-web,.our-web{
+      font-family:arial;
+      margin-top:50px;
+      text-align:center;
+      margin-bottom:0;
+   }
+
+   .lorem-web{
+      font-family:arial;
+      color:rgb(179, 177, 177);
+      text-align:center;
+      font-size:13px;
+      margin-bottom:60px;
+   }
+    
+   .div-flex{
+      display:flex;  
+      justify-content: space-between;
+   }
+
+      .flex-intermediate{ 
+         display:inline;
+         flex:1;
+         background-color:  rgb(252, 246, 240);
+         margin-left:100px;
+         margin-right:40px;
+      }
+      .div-intermediate{
+         margin-top:20px;
+         text-align:center;
+         font-weight:bold;
+         font-size:25px;
+      }
+      .div-content{
+         margin-top:16px;
+         margin-bottom:20px;
+         position: relative;
+         color:rgb(150, 146, 146);
+         font-size:15px;
+         text-align:center;
+      }
+
+      .div-degree{
+         margin-top:20px;
+         text-align:center;
+         font-weight:bold;
+         font-size:25px;
+      }
+      .flex-degree{
+         display:inline-block;
+         flex:1;
+         background-color: rgb(252, 246, 240);
+         margin-right:30px;
+         margin-left:20px;
+      }
+
+      .div-post-graduation{
+         margin-top:20px;
+         text-align:center;
+         font-weight:bold;
+         font-size:25px;
+      }
+      .flex-post-graduation{
+         display:inline-block;
+         flex:1;
+         background-color: rgb(252, 246, 240);
+         margin-right:100px;
+         margin-left:20px;
+      }
+
+
+/* section 2 của web */
+.image-flex-web{
+   display:flex;
+}
+.image{
+   display: block;
+   width: 100%;
+   height:550px;
+   border-radius: 10px;
+   image-rendering: pixelated;
+}
+
+.div-image1,.div-image3,.div-image2{
+  margin-left:100px;
+  margin-right:20px;
+  margin-bottom:30px;
+  position: relative;
+  overflow: hidden;
+}
+.layer {
+   height:100%;
+   width: 100%;
+   position: absolute;
+   top :0;
+   left:0;
+   transition: 0.6s;
+}
+.layer:hover {
+   background:rgba(226,0,0,0.7);
+   border-radius: 10px;
+}
+.div-image3{
+   margin-right:100px;
+   margin-left:30px;
+}
+.div-image2{
+   margin-left:30px;
+}
+
+.title-in-image{
+   text-align: center;
+   font-size:23px;
+   margin-top:70px;
+   color:#fff;
+   position: relative;
+   opacity: 0;
+}
+.layer:hover .title-in-image{
+   opacity:1;
+}
+
+/* section 3 của web */
+.title-facilities{
+   text-align:center;
+   font-size:40px;
+   font-family:arial;
+   margin-bottom:20px;
+}
+   
+.flex-facilities{
+   display:flex;
+}
+.div-in-facilities1,.div-in-facilities2,.div-in-facilities3{
+   width:500px;
+   image-rendering: pixelated;
+   display:block;
+   flex:1;
+   border-radius:10px;
+}
+.img-facilities{
+    width:100%;
+    height:300px;
+   display:block;
+   image-rendering: pixelated;
+   border-radius:10px;
+}
+.div-in-facilities1{
+    margin-left:100px;
+    margin-right:20px;
+}
+.div-in-facilities2{
+    margin-left:20px;
+    margin-right:20px;
+}
+.div-in-facilities3{
+    margin-right:100px;
+    margin-left:20px;
+}
+.title-div-facilities{
+    margin-top:10px;
+    font-family:arial;
+}
+.content-facilities{
+    color:rgb(121, 124, 122);
+    margin-top:-7px;
+    font-size:14px;
+}
+
+/* section 4 of web */
+#title-section-4{
+   text-align:center;
+   font-family:arial;
+   font-size:28px;
+   margin-top:50px;
+   margin-bottom:5px;
+}
+.flex-section-4{
+   display:flex;
+   
+}
+.div-1-section-4, .div-2-section-4 {
+   background-color: rgb(255, 241, 221);
+   display:flex;
+   flex:0.5;
+   padding:0px;
+   margin-left:100px;
+   border-radius:10px;
+   padding-bottom:15px;
+}
+.images-section-4{
+   margin-top:15px;
+   margin-left:20px;
+   margin-right:20px;
+   height:35px;
+   width:35px;
+   display:inline-block;
+   position: relative;
+   border-radius:50%;
+} 
+.content-flex-section-4{
+   
+   color:rgb(141, 127, 127);
+   vertical-align:top;
+   font-family:arial;
+   font-size:15px;
+   line-height:20px;
+}
+.content-flex-section-4 h3{
+   color:black;
+   font-size:15px;
+   font-family:arial;
+}
+.div-2-section-4{
+   margin-right:100px;
+}
+   
+/* section 4 of web */
+.padding-section{
+   padding-left:100px;
+   padding-right:100px;
+   margin-top:100px;
+}
+.background-section-5{
+   background-image: url('anh/banner2.jpg');
+   position: relative;
+   background-position: center;
+   background-size: cover;
+   width:100%;
+   height:300px;
+}
+.h1-section-5, .h2-section-5{
+   padding-top:65px;
+   font-size:37px;
+   font-family:arial;
+   color: white;
+   text-align:center;
+}
+.h2-section-5{
+   padding-top:0px;
+   margin-top:-30px;
+}
+.brul-background-section-5{
+   height:300px;
+   width:100%;
+   backdrop-filter: blur(1px);
+   background: rgba(16, 6, 6, 0.5);
+}
+.button-section-5{
+   text-align:center;
+}
+   .button-section-5 div{
+      padding:10px;
+      padding-left:20px;
+      padding-right:20px;
+      color:white;
+      display:inline-block;
+      border:solid 2px white;
+      font-weight:bold;
+      font-size:15px;
+      font-family:arial;
+   }
+   .button-section-5 div:hover{
+      background-color:rgb(242, 95, 72);
+      border: red;
+      transition: 1s;
+   }
+
+   /* section 5 of web */
+   .section-5-title{
+      text-align:center;
+      font-family:arial;
+      margin-top:100px;
+   }
+   .section-5-title p{
+      margin-top:10px;
+      color:rgb(151, 148, 148);
+      font-size:15px;
+      line-height:20px;
+   }

@@ -1,0 +1,86 @@
+.chang{
+    color:red;
+    font-size: 22px;
+    font-family : arial;
+    text-decoration: underline ; 
+    margin-top:0px;
+    font-weight:bold;
+    display:inline-block;
+    margin-bottom:0px;
+}
+.recrea{
+    font-family: arial;
+    font-size:15px;
+    color:black;
+    display:inline-block;
+    margin-bottom:0px;
+}
+.sign{
+    font-size:15px;
+    color: black;
+    margin-top:0cm;
+    display:inline-block;
+}
+.seach{
+    width:100px;
+    margin-top: 10px;
+    padding-right: 0px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:5px;
+    cursor:pointer;
+    border-radius:4px;
+    font-size:13px;
+    border-color:gray;
+    
+}
+
+.sea{
+    width:100px;
+    margin-top: 10px;
+    padding-right: 0px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:5px;
+    cursor:pointer;
+    border-radius:4px;
+    margin-left:2px;
+    font-size:13px;
+}
+
+.email{
+    
+    width:215px;
+    margin-top:7px;
+    padding-left:5px;
+    padding-right:0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius:4px;
+    font-size:13px;
+    border-color: gray;
+
+
+}
+.si {
+    background-color: rgb(58, 111, 255);
+    border-color: rgb(58, 111, 255);
+    width : 215px;
+    margin-top:7px;
+    padding-left:5px;
+    padding-right:0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius:4px;
+    text-align:center; 
+    font-weight :bold;
+    font-size:19px;
+    cursor:pointer;
+}
+.si:active {
+    background-color: black;
+}
+
+.link{
+    display:inline-block;
+}
